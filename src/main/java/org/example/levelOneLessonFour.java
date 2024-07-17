@@ -71,7 +71,7 @@ public class levelOneLessonFour {
                     playerTwoTurn();
                     printMap();
                     if (chekWin("O")) {
-                        System.out.println("Победил AI!");
+                        System.out.println("Победил второй игрок!");
                         break;
                     }
                     if (mapFull()) {
